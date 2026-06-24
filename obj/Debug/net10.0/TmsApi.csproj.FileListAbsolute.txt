@@ -120,3 +120,4 @@ C:\Users\CSUG\Desktop\tmsapi2\TmsApi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis
 C:\Users\CSUG\Desktop\tmsapi2\TmsApi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\CSUG\Desktop\tmsapi2\TmsApi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\CSUG\Desktop\tmsapi2\TmsApi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\CSUG\Desktop\tmsapi2\tmsapi\obj\Debug\net10.0\TmsApi.sourcelink.json
