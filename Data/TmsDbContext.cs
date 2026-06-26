@@ -1,6 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using TmsApi.Entities;
-namespace TmsApi.Data;
+
+
+namespace TmsApi.Data
+{
+/*{
+    public class TmsDbContext : DbContext
+    {
+        public TmsDbContext(DbContextOptions<TmsDbContext> options) : base(options) { }
+
+        public DbSet<Student> Students { get; set; }
+    }*/
 public class TmsDbContext(DbContextOptions<TmsDbContext> options) : DbContext(options)
 {
     public DbSet<Student> Students => Set<Student>();
@@ -17,4 +27,4 @@ public class TmsDbContext(DbContextOptions<TmsDbContext> options) : DbContext(op
             .HasIndex(c => c.Code)
             .IsUnique();
     }
-}
+}}

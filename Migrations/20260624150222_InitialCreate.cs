@@ -97,8 +97,7 @@ namespace TmsApi.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Enrollments");
+            migrationBuilder.DropTable( name: "Enrollments");
 
             migrationBuilder.DropTable(
                 name: "Courses");
